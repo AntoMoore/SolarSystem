@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!-- GUI & Web Devlopment Project -->
+<!-- Author: Anthony Moore G00170900 -->
+<html>
+	<head>
+		<title>Solar System</title>
+		<!-- Icon for title -->
+		<link rel="shortcut icon" type="image/x-icon" href="Images/stars.png" />
+		<!-- Meta tags -->
+		<meta charset="UTF-8">
+		<meta name="description" content="The Solar System">
+		<meta name="keywords" content="Solar System, Milky Way, Planets, Space">
+		<meta name="author" content="Anthony Moore">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- External stylesheets -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" rel="stylesheet">	
+		<link href="Css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<!-- Internal stylesheets -->
+		<stlye></style>		
+	</head>
+	<body class="font-styling back-ground-img">
+		<div class="container-fluid">
+			<div class="text-center" id="home">
+				<!-- Navagation bar at top of page -->
+				<ul class="nav nav-pills">
+				
+					<li class="pull-right">
+						<a href="Planets/Neptune.html">Neptune</a>
+					</li>
+					
+					<li class="pull-right">
+						<a href="Planets/Uranus.html">Uranus</a>
+					</li>
+					
+					<li class="pull-right">
+						<a href="Planets/Saturn.html">Saturn</a>
+					</li>
+					
+					<li class="pull-right">
+						<a href="Planets/Jupiter.html">Jupiter</a>
+					</li>
+						
+					<li class="pull-right">
+						<a href="Planets/Mars.html">Mars</a>
+					</li>
+
+					<li class="pull-right">
+						<a href="Planets/Earth.html">Earth</a>
+					</li>
+
+					<li class="pull-right">
+						<a href="Planets/Venus.html">Venus</a>
+					</li>
+
+					<li class="pull-right">
+						<a href="Planets/Mercury.html">Mercury</a>
+					</li>
+					
+					<li class="pull-right">
+						<a href="Planets/Sol.html">Sol</a>
+					</li>
+
+					<li class="pull-left">
+						<a href="#">Home</a>
+					</li>
+
+				</ul>
+				<!-- Planet images to act as interactive buttons -->
+				<div class="row">
+					<div class="col-sm-2 col-md-2">
+						<div class="hover">
+							<a href="Planets/Sol.html"><img src="Images/sun.png" alt="The Sun" title="Go to Sol" class="planet-images sun-image-home"></a>
+							<!-- display tooltip on mouse hover -->
+							<div class="tooltip tooltip-sun-pos">
+								<p><h4><u>The Sun:</u></h4></p>
+								<p><b>Diameter:</b> 1,392,684 km</p>
+								<p><b>Circumference</b> 4,370,005.6 km</p>
+								<p><b>Mass:</b> 1.99 × 10^30 kg</p>
+								<p><b>Star Type:</b> Yellow Dwarf</p>
+								<p><b>Surface Temperature:</b> 5,500 °C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-1 col-md-1">
+						<div class="hover">
+							<a href="Planets/Mercury.html"><img src="Images/mercury.png" alt="Mercury" title="Go to Mercury" class="planet-images mercury-image-home"></a>
+							<!-- display tooltip on mouse hover -->
+							<div class="tooltip tooltip-mercury-pos">
+								<p><h4><u>Mercury:</u></h4></p>
+								<p><b>Diameter:</b> 4,879 km</p>
+								<p><b>Mass:</b> 3.30 x 10^23 kg</p>
+								<p><b>Orbit Distance:</b> 57,909,227 km</p>
+								<p><b>Surface Temperature:</b> -173 to 427°C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-1 col-md-1">
+						<div class="hover">
+							<a href="Planets/Mercury.html"><img src="Images/venus.png" alt="Venus" title="Go to Venus" class="planet-images venus-image-home"></a>
+							<!-- display tooltip on mouse hover -->
+							<div class="tooltip tooltip-venus-pos">
+								<p><h4><u>Venus:</u></h4></p>
+								<p><b>Diameter:</b> 12,104 km</p>
+								<p><b>Mass:</b> 4.87 x 10^24 kg</p>
+								<p><b>Orbit Distance:</b> 108,209,475 km</p>
+								<p><b>Surface Temperature:</b> 462 °C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-1 col-md-1">
+						<div class="hover">
+							<a href="Planets/Earth.html"><img src="Images/earth.png" alt="Earth" title="Go to Earth" class="planet-images earth-image-home"></a>
+							<!-- display tooltip on mouse hover -->
+							<div class="tooltip tooltip-earth-pos">
+								<p><h4><u>Earth:</u></h4></p>
+								<p><b>Diameter:</b> 12,756 km</p>
+								<p><b>Mass:</b> 5.97 x 10^24 kg</p>
+								<p><b>Orbit Distance:</b> 149,598,262 km</p>
+								<p><b>Surface Temperature:</b> -88 to 58°C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-1 col-md-1">
+						<div class="hover">
+							<a href="Planets/Mars.html"><img src="Images/mars.png" alt="Mars" title="Go to Mars" class="planet-images mars-image-home"></a>
+							<!-- display tooltip on mouse hover -->
+							<div class="tooltip tooltip-mars-pos">
+								<p><h4><u>Mars:</u></h4></p>
+								<p><b>Diameter:</b> 6,792 km</p>
+								<p><b>Mass:</b> 6.42 x 10^23 kg</p>
+								<p><b>Orbit Distance:</b> 227,943,824 km</p>
+								<p><b>Surface Temperature:</b> -153 to 20 °C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-2 col-md-2">
+						<div class="hover">
+							<a href="Planets/Jupiter.html"><img src="Images/jupiter.png" alt="Jupiter" title="Go to Jupiter" class="planet-images jupiter-image-home"></a>
+							<!-- display tooltip on mouse hover -->
+							<div class="tooltip tooltip-jupiter-pos">
+								<p><h4><u>Jupiter:</u></h4></p>
+								<p><b>Diameter:</b> 142,984 km</p>
+								<p><b>Mass:</b> 1.90 × 10^27 kg</p>
+								<p><b>Orbit Distance:</b> 778,340,821 km</p>
+								<p><b>Surface Temperature:</b> -148 °C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-2 col-md-2">
+						<div class="hover">
+							<a href="Planets/Saturn.html"><img src="Images/saturn.png" alt="Satrun" title="Go to Saturn" class="saturn-image-home"></a>
+							<div class="tooltip tooltip-saturn-pos">
+								<p><h4><u>Saturn:</u></h4></p>
+								<p><b>Diameter:</b> 120,536 km</p>
+								<p><b>Mass:</b> 5.68 × 10^26 kg</p>
+								<p><b>Orbit Distance:</b> 1,426,666,422 km</p>
+								<p><b>Surface Temperature:</b> -178 °C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-1 col-md-1">
+						<div class="hover">
+							<a href="Planets/Uranus.html"><img src="Images/uranus.png" alt="Uranus" title="Go to Uranus" class="planet-images uranus-image-home"></a>
+							<div class="tooltip tooltip-uranus-pos">
+								<p><h4><u>Uranus:</u></h4></p>
+								<p><b>Diameter:</b> 51,118 km</p>
+								<p><b>Mass:</b> 8.68 × 10^25 kg</p>
+								<p><b>Orbit Distance:</b> 2,870,658,186 km</p>
+								<p><b>Surface Temperature:</b> -178 °C</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-1 col-md-1">
+						<div class="hover">
+							<a href="Planets/Neptune.html"><img src="Images/neptune.png" alt="Neptune" title="Go to Neptune" class="planet-images neptune-image-home"></a>
+							<div class="tooltip tooltip-neptune-pos">
+								<p><h4><u>Neptune:</u></h4></p>
+								<p><b>Diameter:</b> 49,528 km</p>
+								<p><b>Mass:</b> 1.02 × 10^26 kg</p>
+								<p><b>Orbit Distance:</b> 4,498,396,441 km</p>
+								<p><b>Surface Temperature:</b> -216 °C</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-- buttons with links to various space related websites -->
+				<div class="row">
+					<div class="btnList text-center">
+					
+						<a class="btn btn-nasa btn-custom" href="https://www.nasa.gov/" alt="Nasa" title="Go to Nasa" target="_blank"></a>
+
+						<a class="btn btn-esa btn-custom" href="http://www.esa.int/ESA" alt="ESA" title="Go to ESA" target="_blank"></a>
+
+						<a class="btn btn-spaceX btn-custom" href="http://www.spacex.com/" alt="SpaceX" title="Go to SpaceX" target="_blank"></a>
+						
+						<a class="btn btn-contact btn-custom" href="Planets/Contact.Html" alt="Contact" title="Contact Us" target="_blank"></a>
+
+					</div>
+				</div>
+				<!-- footer with link to my freecodecamp -->
+				<footer class="text-styling">
+				Written and coded by <a href="https://learnonline.gmit.ie/user/view.php?id=3749&course=128" title="LearnOnline"target="_blank">Anthony Moore</a>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

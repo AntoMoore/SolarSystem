@@ -1,0 +1,331 @@
+footer {
+	position: relative;
+	transform: translateY(1400%);
+	font-size: 0.9em;
+}
+
+h1 {
+	font-size: 3.0em;
+	padding: 1%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h4 {
+	
+}
+
+b {
+	color: #3371d6;
+}
+
+p {
+	padding: 1%;
+}
+
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;    
+}
+
+/* reletive positioning/padding for buttons and tables */
+.table-position {
+	position: relative;
+	top: 50%;
+	left: 1%;
+	transform: translateY(5%);
+}
+
+.topOfPageBtn-position {
+	position: relative;
+	top: 50%;
+	transform: translateY(60%);
+	padding-bottom: 5%;
+}
+
+.video-position {
+	padding-top: 2%;
+}
+
+.para-position {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.font-styling {
+	font-family: orbitron;
+	color: white;
+	background-color: white;
+}
+
+/* background */
+.back-ground-img {
+	background-image: url("../Images/space.png");
+	background-size: cover;
+	padding-bottom: 5%;
+}
+
+/* navbar styling */
+.nav-pills {
+	font-size: 1.5em;
+	background-color: black;
+	margin-bottom: 2%;
+}
+
+/* button styling/positioning */
+.btn-custom {
+	position: relative;
+	top: 50%;
+	transform: translateY(450%);
+	background-size: cover;
+	height: 50px;
+	width: 150px;	
+	background-position: center;
+}
+
+/* button images and psueado class for hover */
+.btn-nasa {
+	background-image: url("../Images/nasa.jpg");
+}
+
+.btn-nasa:hover {
+	background-image: url("../Images/nasa-grey.jpg");
+}
+
+.btn-esa {
+	background-image: url("../Images/esa.jpg");
+}
+
+.btn-esa:hover {
+	background-image: url("../Images/esa-grey.jpg");
+}
+
+.btn-spaceX {
+	background-image: url("../Images/spacex.jpg");
+}
+
+.btn-spaceX:hover {
+	background-image: url("../Images/spacex-grey.jpg");
+}
+
+.btn-contact {
+	background-image: url("../Images/contact.png");
+}
+
+.btn-contact:hover {
+	background-image: url("../Images/contact-grey.png");
+}
+
+/* reletive positioning and size for index page planets */
+.planet-images {
+	position: relative;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sun-image-home {
+	height: 250px;
+	transform: translateY(-15%);
+}
+
+.mercury-image-home {
+	height: 50px;
+	transform: translateY(210%);
+}
+
+.venus-image-home {
+	height: 45px;
+	transform: translateY(300%);
+}
+
+.earth-image-home {
+	height: 80px;
+	transform: translateY(165%);
+}
+
+.mars-image-home {
+	height: 55px;
+	transform: translateY(300%);
+}
+
+.jupiter-image-home {
+	height: 160px;
+	transform: translateY(60%);
+}
+
+.uranus-image-home {
+	height: 50px;
+	transform: translateY(320%);
+}
+
+.neptune-image-home {
+	height: 40px;
+	transform: translateY(220%);
+}
+
+/* use border radius 25 insead of 50 to allow for rings around saturn */
+.saturn-image-home {
+	height: 125px;
+	position: relative;
+	transform: translateY(110%);
+	border-radius: 25%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Large images for main pages */
+.image-main {
+	height: 400px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(0%);
+}
+
+.layers-main {
+	height: 300px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(20%);
+}		
+
+.sun-types-main {
+	height: 320px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(90%);
+}
+
+.surface-main {
+	height: 320px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(100%);
+}
+
+.quick-fact-pos	{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(0%);
+}
+
+
+/* color for the font-awesome-icon, top of page 'UP' arrow */
+#arrowUp {
+	color: #3371d6;
+}	
+
+/* hover tooltip */
+.hover {
+    position:relative;
+    top:10px;
+    left:10px;
+}
+
+/* hide and position tooltips */
+.tooltip { 
+  padding: 1%;
+  background-color:#292c33;
+  border-radius:5px;
+  border: solid 1px #3371d6;
+  opacity:0;
+  position:absolute;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.tooltip-sun-pos {
+	transform: translateY(-20%);
+	min-width: 200px;
+}
+
+.tooltip-mercury-pos {
+	transform: translateY(55%);
+	min-width: 160px;
+}
+
+.tooltip-venus-pos {
+	transform: translateY(70%);
+	min-width: 160px;
+}
+
+.tooltip-earth-pos {
+	transform: translateY(65%);
+	min-width: 160px;
+}
+
+.tooltip-mars-pos {
+	transform: translateY(80%);
+	min-width: 160px;
+}
+
+.tooltip-jupiter-pos {
+	transform: translateY(55%);
+	min-width: 200px;
+}
+
+.tooltip-saturn-pos {
+	transform: translateY(65%);
+	min-width: 200px;
+}
+
+.tooltip-uranus-pos {
+	transform: translateY(75%);
+	min-width: 160px;
+}
+
+.tooltip-neptune-pos {
+	transform: translateY(30%);
+	max-width: 120px;
+}
+
+/* display tooltip on hover */
+.hover:hover .tooltip {
+    opacity:1;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
